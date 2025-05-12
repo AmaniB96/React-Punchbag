@@ -1,11 +1,11 @@
 import "./Bag.css"
 
 
-export default function Bag(imagesrc) {
+export default function Bag(props) {
 
     return (
          <div>
-           <img src={imagesrc} alt="" />
+           <img src={props.imagesrc} alt="" />
          </div>
     )
     
