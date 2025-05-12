@@ -2,9 +2,9 @@ export default function Bouton(role) {
     return (
         <>
         <div>
-            {role.DisplayCount}
+           <button onClick={role.onPunch} >Punch</button>
         </div>
-        <button onClick={role.onPunch} >Punch</button>
+        
         </>
     )
 }
