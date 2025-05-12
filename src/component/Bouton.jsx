@@ -1,12 +1,12 @@
 import Break from './Bag'
 
-export default function Bouton() {
+export default function Bouton(onPunch, DisplayCount) {
     return (
         <>
         <div>
-            
+            {DisplayCount}
         </div>
-        <button >Punch</button>
+        <button onClick={onPunch} >Punch</button>
         </>
     )
 }

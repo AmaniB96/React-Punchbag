@@ -1,12 +1,11 @@
 import "./Bag.css"
 
 
-export default function Bag() {
-
+export default function Bag(imagesrc) {
 
     return (
          <div>
-           <img alt="" />
+           <img src={imagesrc} alt="" />
          </div>
     )
     
